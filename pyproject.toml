@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 80
+skip-string-normalization = true
+target-version = ["py38", "py39", "py310"]
+exclude = '''
+/(
+    \.pytest_cache
+    \.mypy_cache
+)/
+'''

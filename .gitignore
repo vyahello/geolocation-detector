@@ -33,4 +33,4 @@ build/
 *.sqlite
 
 # output file
-output/*
+input
