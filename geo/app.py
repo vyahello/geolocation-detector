@@ -21,7 +21,9 @@ def success_table() -> str:
         try:
             geo = Nominatim(scheme='http', user_agent='app')
             data_frame = pandas.read_csv(request.files['file'])
-            data_frame['coordinates'] = data_frame['Address'].apply(geo.geocode)
+            data_frame['coordinates'] = data_frame['Address'].apply(
+                geo.geocode
+            )
             data_frame['Latitude'] = data_frame['coordinates'].apply(
                 lambda entry: entry.latitude if entry else None
             )

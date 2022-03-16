@@ -11,6 +11,7 @@
 - python 3.7+
 - [pandas](https://pandas.pydata.org)
 - [black](https://black.readthedocs.io/en/stable/)
+- [flake8](https://flake8.pycqa.org/en/latest/)
 
 ## Usage
 
