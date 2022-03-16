@@ -15,7 +15,7 @@
 
 ## Usage
 
-TBD
+![Demo](demo.gif)
 
 ### Source code
 
@@ -25,7 +25,8 @@ python3 -m venv venv
 . venv/bin/activate
 cd geolocation-detector
 pip install -r requirements.txt
-python geo/app.py
+cd geo
+python app.py
 ```
 
 Then please open http://localhost:5000 in your browser.
